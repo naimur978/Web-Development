@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class Routine</title>
+	<link rel="stylesheet" type="text/css" href="tic.css">
+	<link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.1/getting-started/download/">
+	<style type="text/css">
+
+	.container{
+	padding: 55px 70px;
+    }
+
+	h1 {
+		text-align: center;
+	}
+
+	body{
+		background: linear-gradient(to right,#ff0084, #33001b);
+		background: radial-gradient(#f69d3c, #3f87a6);
+	}
+
+
+	table {
+		margin: auto;
+	}
+
+	td {
+		width: 100px;
+		height: 100px;
+
+	}
+
+	td:hover {
+		/*border: 1px solid grey;*/
+		background-color: transparent;
+		cursor: grab;
+		transition: 2.0s;
+		webkit-transition : all 2.0s;
+		moz-transition : all 2.0s;
+	}
+
+
+
+	.vertical {
+		/*border-left: 1px solid black;
+		border-right: 1px solid black;*/
+		text-align: center;
+		background-color: mediumorchid;
+;
+	}
+
+	.horizontal {
+		/*border-top: 1px solid black;
+		border-bottom: 1px solid black;*/
+		background-color: mediumorchid;
+;
+	}
+
+	.ver {
+		/*border-left: 1px solid black;
+		border-right: 1px solid black;*/
+		text-align: center;
+		background-color: #C71585;
+	}
+
+	.hor {
+		/*border-top: 1px solid black;
+		border-bottom: 1px solid black;*/
+		background-color: #C71585;
+	}
+
+	td
+	{
+		width: 180px;
+		height: 50px;
+	}
+
+	h1
+	{
+		color: red;
+	}
+
+	.tooltip {
+    position: relative;
+    display: inline-block;
+   /* border-bottom: 1px dotted #ccc;*/
+   /* zcursor: help;*/
+    /*color: #006080;*/
+    text-align: center;
+}
+.tooltip .tooltiptext {
+    visibility: visible;
+    position: absolute;
+    width: 150px;
+    background-color: black;
+    color: white;
+    
+    padding: 1px 0;
+    border-radius: 50px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s;
+    height: 18px;
+  text-align: center;
+}
+    
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  text-align: center;
+}
+
+
+
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<h1>Class Routine</h1>
+
+<table >
+	<tr>
+		<td class="hor ver">
+		</td>
+		<td class="hor ver">
+					<strong>9.50 - 11.25</strong>
+  </div></td>
+  		<td class="hor ver">
+					<strong>11.30 - 1.05</strong>
+ 
+  	</div></td>
+
+  		<td class="hor ver">
+				<strong>1.30 - 3.05</strong>
+   		
+ 					 </div>
+ 		</td>
+
+	</tr>
+
+	<tr>
+		<td class="hor ver">
+					<strong>Sunday</strong>
+ 
+ 					 </div>
+ 		</td>
+
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Microprocessor
+   		 <span class="tooltiptext ">CSE 415 : MMI </span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Algorithm
+		<span class="tooltiptext ">CSE 411 : MSC </span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Microprocessor Lab
+		<span class="tooltiptext ">CSE 416 : MMI</span>
+ 					 </div>
+ 		</td>
+
+	</tr>
+
+
+	<tr>
+		<td class="hor ver">
+					<strong>Monday</strong>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Numerical Methods
+		<span class="tooltiptext ">MAT 431 : MF</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Database
+		<span class="tooltiptext ">MAT 431 : MF</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Algorithm Lab
+		<span class="tooltiptext ">CSE 413 : SC</span>
+ 					 </div>
+ 		</td>
+
+	</tr>
+
+
+	<tr>
+		<td class="hor ver">
+					<strong>Tuesday</strong>
+
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Microprocessor
+		<span class="tooltiptext ">CSE 415 : MMI</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Database
+		<span class="tooltiptext ">CSE 413 : SC</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Numerical Methods Lab
+		<span class="tooltiptext ">MAT 432 : MF</span>
+ 					 </div>
+ 		</td>
+
+	</tr>
+
+
+	<tr>
+		<td class="hor ver">
+					<strong>Wednesday</strong>
+   		
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Microprocessor Lab
+		<span class="tooltiptext ">CSE 416 : MMI</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Numerical Methods Lab
+		<span class="tooltiptext ">MAT 432 : MF</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Database Lab
+		<span class="tooltiptext ">CSE 414 : SC</span>
+ 					 </div>
+ 		</td>
+
+	</tr>
+
+
+	<tr>
+		<td class="hor ver">
+					<strong>Thursday</strong>
+   
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Algorithm
+		<span class="tooltiptext ">CSE 411 : MSC</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Algorithm Lab
+		<span class="tooltiptext ">CSE 412 : MSC</span>
+ 					 </div>
+ 		</td>
+ 		<td class="vertical horizontal">
+					<div class="tooltip">Numerical Methods
+		<span class="tooltiptext ">MAT 431 : MF</span>
+ 					 </div>
+ 		</td>
+
+	</tr>
+
+
+	</div>
+
+
+</body>
+</html>
